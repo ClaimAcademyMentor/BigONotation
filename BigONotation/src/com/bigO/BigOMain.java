@@ -7,6 +7,7 @@ public class BigOMain {
 		// O(1) Notation - Describes an algorithm that will always execute in the same
 		// space/time regardless of size
 		String ex1 = "A";
+		String ex4 = "New changes made";
 		String ex2 = "Supercalifragalistikexpialidoscious";
 		String ex3 = "Better known for literary masterpieces such as A Farewell to Arms and The Old Man and the Sea, Ernest Hemingway was born in 1899 and went on to win the Nobel Prize for Literature in 1954. Whilst in later years he gained the reputation as an avid hunter and inveterate drinker, Hemingway wrote a great deal of poetry, especially in his youth.\r\n"
 				+ "\r\n"
@@ -14,9 +15,9 @@ public class BigOMain {
 				+ "\r\n"
 				+ "He was offered a job writing for the Toronto Star Weekly and later moved to Chicago where he married Hadley Richardson. They went to Paris where Hemingway worked as the overseas correspondent for the Toronto Star and met with literary luminaries such as Ezra Pound and James Joyce. In 1923 he published his first work, Three Stories and Ten Poems and his second collection, In Our Time, garnered a certain amount of praise for a new and upcoming writer.\r\n"
 				+ "\r\n" + "\r\n" + "\r\n"
-				+ "Influenced by the publication of Fitzgerald’s The Great Gatsby, Hemingway set his mind to writing a novel and wrote The Sun Also Rises in just over 8 weeks. The book received mixed reviews when it was first published but went onto become one of the iconic modernist novels of the early 20th Century. By this time his marriage was beginning to fail and Hemingway was having an affair. He divorced and move back to Key West in Florida after marrying Pauline Pfeiffer.\r\n"
+				+ "Influenced by the publication of Fitzgeraldï¿½s The Great Gatsby, Hemingway set his mind to writing a novel and wrote The Sun Also Rises in just over 8 weeks. The book received mixed reviews when it was first published but went onto become one of the iconic modernist novels of the early 20th Century. By this time his marriage was beginning to fail and Hemingway was having an affair. He divorced and move back to Key West in Florida after marrying Pauline Pfeiffer.\r\n"
 				+ "\r\n"
-				+ "There Ernest Hemingway began work on A Farewell to Arms which was published in 1929 and was set during the First World War. The novel introduced him as one of the major writers in America. He would spend his winter time in Key West, hanging out at Sloppy Joe’s bar, and the summer in Wyoming. In 1937 he went to Spain after agreeing to act as overseas correspondent during the Spanish Civil War.\r\n"
+				+ "There Ernest Hemingway began work on A Farewell to Arms which was published in 1929 and was set during the First World War. The novel introduced him as one of the major writers in America. He would spend his winter time in Key West, hanging out at Sloppy Joeï¿½s bar, and the summer in Wyoming. In 1937 he went to Spain after agreeing to act as overseas correspondent during the Spanish Civil War.\r\n"
 				+ "\r\n"
 				+ "In 1939 he was spending time Cuba and was also beginning the long and painful separation from his second wife, again carrying on an affair with another woman. In the same year he began work on one of his most famous works, For Whom The Bell Tolls which was nominated for the Pulitzer when it was finally published in 1940.\r\n"
 				+ "\r\n"
@@ -49,7 +50,7 @@ public class BigOMain {
 			System.out.println(chEx2[i]);
 		}
 
-		// O(N²) represents an algorithm whose performance is directly proportional to
+		// O(Nï¿½) represents an algorithm whose performance is directly proportional to
 		// the square of the size of the input data set.
 
 		// int count = 0;
@@ -67,7 +68,7 @@ public class BigOMain {
 		// O(log N) Dealing with logarithmic time. The program will adjust and increase
 		// with the size of the input
 		// An excellent notation when dealing with large amounts of data
-		// Perfect application of “think smarter, not harder”.
+		// Perfect application of ï¿½think smarter, not harderï¿½.
 		int countBT = 0;
 		for (int i = 1; i < chEx1.length; i = i * 2) {
 			countBT++;
